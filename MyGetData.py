@@ -24,6 +24,7 @@ import sys
 import json
 sys.path.append("yolov5/") 
 # from detect import api_run
+#
 gc.collect()
 device = torch.device('cuda')
 infer_dst_path = 'news/'
